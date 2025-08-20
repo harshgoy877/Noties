@@ -71,7 +71,7 @@ private val DarkColorScheme = darkColorScheme(
     inversePrimary = Color(0xFF1976D2)
 )
 
-// Note color scheme for note tags
+// Note color scheme for color tags
 object NoteColors {
     val Blue = Color(0xFFE3F2FD)
     val Green = Color(0xFFE8F5E8)
@@ -93,15 +93,15 @@ object NoteColors {
 
     fun getNoteColor(colorTag: String, isDark: Boolean = false): Color {
         return when (colorTag.lowercase()) {
-            "blue"   -> if (isDark) BlueDark   else Blue
-            "green"  -> if (isDark) GreenDark  else Green
+            "blue" -> if (isDark) BlueDark else Blue
+            "green" -> if (isDark) GreenDark else Green
             "yellow" -> if (isDark) YellowDark else Yellow
             "orange" -> if (isDark) OrangeDark else Orange
-            "red"    -> if (isDark) RedDark    else Red
+            "red" -> if (isDark) RedDark else Red
             "purple" -> if (isDark) PurpleDark else Purple
-            "teal"   -> if (isDark) TealDark   else Teal
-            "pink"   -> if (isDark) PinkDark   else Pink
-            else     -> if (isDark) BlueDark   else Blue
+            "teal" -> if (isDark) TealDark else Teal
+            "pink" -> if (isDark) PinkDark else Pink
+            else -> if (isDark) BlueDark else Blue
         }
     }
 }
@@ -119,13 +119,13 @@ fun NotiesTheme(
             else dynamicLightColorScheme(context)
         }
         darkTheme -> DarkColorScheme
-        else      -> LightColorScheme
+        else -> LightColorScheme
     }
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography  = Typography,
-        shapes      = Shapes,
-        content     = content
+        typography = Typography,
+        shapes = Shapes,
+        content = content
     )
 }

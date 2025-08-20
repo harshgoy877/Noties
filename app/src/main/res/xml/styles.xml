@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme using Material3 DayNight with no ActionBar -->
+    <!-- Base Material3 theme with no ActionBar -->
     <style name="Theme.Noties" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your colorScheme in Theme.kt instead -->
-        <item name="android:windowIsTranslucent">false</item>
-        <item name="android:navigationBarContrastEnforced">true</item>
+        <!-- customizations here if needed -->
     </style>
 
-    <!-- No‐ActionBar variant for ShareActivity -->
+    <!-- No-ActionBar variant -->
     <style name="Theme.Noties.NoActionBar">
-        <!-- Remove title bar -->
         <item name="windowNoTitle">true</item>
-        <!-- Remove ActionBar -->
         <item name="windowActionBar">false</item>
-        <!-- Disable full‐screen mode -->
         <item name="android:windowFullscreen">false</item>
     </style>
 
