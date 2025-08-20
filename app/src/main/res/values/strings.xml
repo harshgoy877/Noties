@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noties</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_archived">Archived</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="search_notes">Search notes...</string>
+    <string name="add_note">Add Note</string>
+    <string name="toggle_view_mode">Toggle View Mode</string>
+    <string name="color_filter">Color Filter</string>
+    <string name="clear_filters">Clear Filters</string>
+    <string name="notes_count">%d notes</string>
+    <string name="no_notes">No notes yet</string>
+    <string name="no_notes_subtitle">Tap + to create your first note</string>
+    <string name="no_search_results">No notes found for "%s"</string>
+    <string name="no_color_notes">No %s notes found</string>
+    <string name="try_adjusting_filters">Try adjusting your filters</string>
+
+    <!-- Note Edit Screen -->
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="note_title_hint">Note title...</string>
+    <string name="note_content_hint">Start writing your note...</string>
+    <string name="font_size">Font Size</string>
+    <string name="share_note">Share Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="save_note">Save Note</string>
+    <string name="auto_saving">Auto-saving...</string>
+    <string name="note_saved">Note saved</string>
+
+    <!-- Archive Screen -->
+    <string name="archived_notes">Archived Notes</string>
+    <string name="no_archived_notes">No archived notes</string>
+    <string name="archived_notes_subtitle">Notes you archive will appear here</string>
+    <string name="delete_all_archived">Delete All Archived</string>
+    <string name="restore_note">Restore Note</string>
+
+    <!-- Colors -->
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_red">Red</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_teal">Teal</string>
+    <string name="color_pink">Pink</string>
+    <string name="all_colors">All Colors</string>
+
+    <!-- Font Styles -->
+    <string name="font_regular">Regular</string>
+    <string name="font_bold">Bold</string>
+    <string name="font_italic">Italic</string>
+    <string name="font_bold_italic">Bold Italic</string>
+
+    <!-- Actions -->
+    <string name="archive">Archive</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="delete">Delete</string>
+    <string name="delete_forever">Delete Forever</string>
+    <string name="restore">Restore</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+
+    <!-- Dialogs -->
+    <string name="delete_note_title">Delete Note</string>
+    <string name="delete_note_message">Are you sure you want to delete this note? This action cannot be undone.</string>
+    <string name="delete_all_archived_title">Delete All Archived Notes</string>
+    <string name="delete_all_archived_message">Are you sure you want to permanently delete all %d archived notes? This action cannot be undone.</string>
+    <string name="note_actions">Note Actions</string>
+    <string name="archived_note_actions">Archived Note Actions</string>
+    <string name="choose_action">Choose an action for this note.</string>
+    <string name="choose_archived_action">Choose an action for this archived note.</string>
+
+    <!-- Time format -->
+    <string name="time_now">Now</string>
+    <string name="time_minutes_ago">%dm</string>
+    <string name="time_hours_ago">%dh</string>
+    <string name="time_days_ago">%dd</string>
+    <string name="created_date">Created: %s</string>
+    <string name="modified_date">Modified: %s</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_note_color">Note color indicator</string>
+    <string name="content_description_archived_indicator">Archived note indicator</string>
+    <string name="content_description_more_actions">More actions</string>
+    <string name="content_description_selected_color">Selected color</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Noties Widget</string>
+    <string name="widget_description">Quick access to your notes</string>
+
+    <!-- Share -->
+    <string name="share_note_title">Share Note</string>
+    <string name="share_via">Share via</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_notes">Failed to load notes</string>
+    <string name="error_saving_note">Failed to save note</string>
+    <string name="error_deleting_note">Failed to delete note</string>
+    <string name="error_archiving_note">Failed to archive note</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Empty States -->
+    <string name="empty_search_title">No results found</string>
+    <string name="empty_filter_title">No notes with this filter</string>
+
+    <!-- Snackbar Messages -->
+    <string name="note_deleted">Note deleted</string>
+    <string name="note_archived">Note archived</string>
+    <string name="note_restored">Note restored</string>
+    <string name="all_archived_deleted">All archived notes deleted</string>
+    <string name="undo">Undo</string>
+</resources>
