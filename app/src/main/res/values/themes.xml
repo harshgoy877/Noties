@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Noties" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Base Material3 theme with no ActionBar -->
+    <style name="Theme.Noties" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+
+    <!-- NoActionBar variant for specific activities -->
+    <style name="Theme.Noties.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
 </resources>

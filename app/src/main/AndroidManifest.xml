@@ -29,7 +29,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Widget configuration activity -->
         <receiver
             android:name=".widget.NotesWidgetProvider"
             android:exported="true">
@@ -41,7 +40,6 @@
                 android:resource="@xml/notes_widget_info" />
         </receiver>
 
-        <!-- Share intent handling -->
         <activity
             android:name=".ShareActivity"
             android:exported="true"
